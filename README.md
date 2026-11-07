@@ -41,3 +41,7 @@ javac -sourcepath src Main.java
 ```shell
 java Main
 ```
+## Game Controls
+- right / A -> to move right
+- left / D -> to move left
+- space / up / W -> to shoot
