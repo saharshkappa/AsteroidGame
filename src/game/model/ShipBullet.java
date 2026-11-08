@@ -8,10 +8,10 @@ import static game.util.Constants.SCREEN_WIDTH;
 public class ShipBullet extends GameObject{
     private final double LENGTH = 30;
     private final double WIDTH = 3;
+    final double SPEED = 8;
 
 
     public ShipBullet(double x, double y ){
-        final double SPEED = 8;
         super(x,y,0, 0,3);
         this.vy=SPEED;
     }
