@@ -15,12 +15,14 @@ This was the game that made GTA VI graphics team cry.
 
 ## To compile
 ```shell
-javac -sourcepath src Main.java
+mkdir -p out
+javac -d out -sourcepath src src/Main.java
+cp -r src/res out/
 ```
 
 ## To run 
 ```shell
-java Main
+java -cp out Main
 ```
 ## Game Controls
 - right / A -> to move right
