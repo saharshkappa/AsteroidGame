@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 .idea/
 *.iml
-out/
+out/production
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
