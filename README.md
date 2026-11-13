@@ -1,5 +1,6 @@
 # **ASTEROID GAME**
 ![Game Demo](demo.gif)
+
 This project is a game built in java using swing class.
 Imagine the best game you have ever played. This is that game.
 This was the game that made GTA VI graphics team cry.
