@@ -1,35 +1,38 @@
 # **ASTEROID GAME**
-
 ![Game Demo](demo.gif)
-
 This project is a game built in java using swing class.
 Imagine the best game you have ever played. This is that game.
-
 This was the game that made GTA VI graphics team cry.
 
 (this was most definitely not a Java Project for my **OOP Programming with Java** class that i repurposed and pushed to github)
 
-## Requirements 
+## **Requirements** 
 - Java Development Kit (JDK) 21 or later (for developing and running)
 - Java Runtime Environment (JrE) 21 or later (for only running)
+## To get started
+```shell
+git clone https://github.com/saharshkappa/AsteroidGame.git
+cd AteroidGame
+```
 
-## To compile
+## **To run** 
+```shell
+java -cp out Main
+```
+
+## **To compile**
 ```shell
 mkdir -p out
 javac -d out -sourcepath src src/Main.java
 cp -r src/res out/
 ```
 
-## To run 
-```shell
-java -cp out Main
-```
-## Game Controls
+## **Game Controls**
 - right / A -> to move right
 - left / D -> to move left
 - space / up / W -> to shoot
 
-## File Structure
+## **File Structure**
 ```
 AsteroidGame                                
 +-- src                                     
@@ -49,3 +52,4 @@ AsteroidGame
 |   +-- Constants.java                      
 +-- Main.java // main method
 ```
+
